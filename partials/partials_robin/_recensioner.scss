@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: rgb(214, 236, 214);
+}
+
+.rubrik h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.innerwrapper {
+    margin: auto;
+    width: 800px;
+    border-radius: 20px;
+    background-color: #055C64;
+    padding-top: 40px;
+}
+
+.review_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.review {
+    border-radius: 20px;
+    background-color: #fff;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 190px;
+    height: 150px;
+    list-style: none;
+}
+
+.rating {
+    color: #FFD700; 
+    font-size: 18px; 
+    margin-bottom: -20px; 
+    text-align: center;
+}
+
+.date_name {
+    color: rgba(128, 128, 128, 0.7); 
+    font-size: 12px; 
+    margin-bottom: 20px; 
+    padding-top: 10px;
+}
+
+.google_wrapper {
+    margin: auto;
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #055C64;
+    color: #fff;
+    padding: 20px;
+    position: relative; 
+}
+.google_innerwrapper {
+    display: flex;
+    flex-direction: column; 
+}
+
+.google_header {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    align-items: left; 
+}
+.google_logo_text {
+    font-size: 25px;
+    display: inline-flex;
+    margin: -40px 0 0 60px; 
+}
+
+.arrow_icon {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.omdome {
+    margin-top: 10px;
+}
+
+#omdome_text {
+    font-size: 20px;
+    margin-bottom: 90px;
+    padding-left: 10px;
+}
+
+#omdome_rating {
+    font-size: 20px;
+    text-align: left; 
+    margin-left: 10px;
+}
+
+.omdome_rating_count {
+    color: rgb(122, 122, 122);
+}
+
+.recension_wrapper {
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #055C64;
+    text-align: center;
+}
+
+.recension_text {
+    padding-top: 10px;
+    color: #fff;
+}

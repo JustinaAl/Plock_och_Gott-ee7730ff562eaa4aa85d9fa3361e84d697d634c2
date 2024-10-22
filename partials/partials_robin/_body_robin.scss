@@ -1,0 +1,205 @@
+body {
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: rgb(214, 236, 214);
+}
+
+.rubrik h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.innerwrapper {
+    margin: auto;
+    width: 800px;
+    border-radius: 20px;
+    background-color: #055C64;
+    padding-top: 40px;
+}
+
+.review_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.review {
+    border-radius: 20px;
+    background-color: #fff;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 190px;
+    height: 150px;
+    list-style: none;
+}
+
+.rating {
+    color: #FFD700; 
+    font-size: 18px; 
+    margin-bottom: -20px; 
+    text-align: center;
+}
+
+.date_name {
+    color: rgba(128, 128, 128, 0.7); 
+    font-size: 12px; 
+    margin-bottom: 20px; 
+    padding-top: 10px;
+}
+
+.google_wrapper {
+    margin: auto;
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: #055C64;
+    color: #fff;
+    padding: 20px;
+    position: relative; 
+}
+.google_innerwrapper {
+    display: flex;
+    flex-direction: column; 
+}
+
+.google_header {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    align-items: left; 
+}
+.google_logo_text {
+    font-size: 25px;
+    display: inline-flex;
+    margin: -40px 0 0 60px; 
+}
+
+.arrow_icon {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+}
+
+.omdome {
+    margin-top: 10px;
+}
+
+#omdome_text {
+    font-size: 20px;
+    margin-bottom: 90px;
+    padding-left: 10px;
+}
+
+#omdome_rating {
+    font-size: 20px;
+    text-align: left; 
+    margin-left: 10px;
+}
+
+.omdome_rating_count {
+    color: rgb(122, 122, 122);
+}
+
+.recension_wrapper {
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #055C64;
+    text-align: center;
+}
+
+.recension_text {
+    padding-top: 10px;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_wrapper {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0e1;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    background-color: #02667f;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    background-color: #e8e3d5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: calc(50% - 20px);
+    }
+}
