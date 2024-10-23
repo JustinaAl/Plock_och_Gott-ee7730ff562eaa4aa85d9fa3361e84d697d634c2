@@ -152,6 +152,10 @@ div.colum {
     background-color: transparent;
     color: #F3CA94;
   }
+  .menu a.active {
+    color: #fac279;
+    font-style: italic;
+  }
   a {
     margin: auto;
     margin-top: 10px;
@@ -177,6 +181,7 @@ div.colum {
 
 main {
   margin-top: 120px;
+  margin-bottom: 20px;
 }
 @media (min-width: 820px) {
   main {
@@ -409,6 +414,11 @@ input.text.text.small {
   cursor: pointer;
 }
 
+section.info div.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
 @media (min-width: 777px) {
   section.info {
     min-height: 445px;
@@ -449,6 +459,7 @@ footer {
 }
 
 .footer-column a {
+  font-size: 20px;
   color: #FFF3E3;
   text-decoration: none;
 }
@@ -477,6 +488,7 @@ footer {
   display: flex;
   justify-content: center;
   margin: 10px 0;
+  font-size: 20px;
 }
 
 .footer-bottom {

@@ -105,6 +105,9 @@ main div.wrap > a:visited{
     color: unset;
 }
 
+section.recentioner h2.name{
+    color: white;
+}
 
 @media (min-width:800px){
     main{
@@ -203,9 +206,4 @@ main div.wrap > a:visited{
     font-size: 14px;
     color: #666;
     margin-bottom: 10px;
-}
-
-.kommentar_text {
-    font-size: 16px;
-    color: #333;
 }

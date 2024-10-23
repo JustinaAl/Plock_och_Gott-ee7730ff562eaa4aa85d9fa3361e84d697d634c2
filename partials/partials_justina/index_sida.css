@@ -152,6 +152,10 @@ div.colum {
     background-color: transparent;
     color: #F3CA94;
   }
+  .menu a.active {
+    color: #fac279;
+    font-style: italic;
+  }
   a {
     margin: auto;
     margin-top: 10px;
@@ -356,6 +360,10 @@ main div.wrap > a {
 
 main div.wrap > a:visited {
   color: unset;
+}
+
+section.recentioner h2.name {
+  color: white;
 }
 
 @media (min-width: 800px) {

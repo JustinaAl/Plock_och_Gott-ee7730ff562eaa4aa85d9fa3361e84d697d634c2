@@ -147,6 +147,12 @@ div.colum{
         color: $dark-beige;
     }
 
+    .menu a.active{
+        color:#fac279 ;
+        font-style: italic;
+        
+    }
+
     a{
         margin: auto;
         margin-top: 10px;
