@@ -1,0 +1,169 @@
+main{
+    flex-direction: column;
+    
+    section{
+        all: unset;
+    }
+}
+
+div.wrap{
+    display: block;
+}
+
+p{
+    font-family: $font-text;
+}
+
+h2{
+    color: black;
+}
+
+
+div.wrap{
+    background-color: $beige;
+
+    @media (min-width: 900px){
+        background-color: white;
+    }
+    
+}
+
+section.personal{
+    max-width: 90%;
+    padding: 20px;
+
+    @media (min-width: 900px){
+        max-width: 800px;
+        padding: 40px;
+        background-color: $beige;
+    }
+
+    h2{
+
+    @media (min-width: 900px){
+        color: black;
+        
+    }
+    }
+
+    span{ 
+        color: black;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    div.bilder{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px 0;
+
+
+        img{
+            margin: 5px;
+            width: 150px;
+
+            @media (min-width: 500px){
+                min-width: 200px;
+            }
+
+            @media (min-width: 600px){
+                min-width: 250px;
+                
+            }
+        }
+    }
+}
+
+
+.two{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media (min-width:800px){
+        flex-direction: row;
+    }
+    
+    .bilder_two{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: $beige;
+
+        @media (min-width:800px){
+            width: 50%;
+            padding: 20px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+    }
+
+    .bilder_two img{
+        margin: 5px;
+        min-width: 80px;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+}
+
+div.box{
+    display: block;
+}
+
+.cta-button {
+    display: block;      
+    padding: 20px 20px;        
+    background-color: $green; 
+    color:white;
+    text-align: center;               
+    text-decoration: none;      
+    border-radius: 5px;     
+    font-size: 20px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.cta-button:hover {
+    background-color: $darker-green; 
+    color: white; 
+}
+
+section.recentioner{
+    width: 400px;
+    min-height: fit-content;
+    padding: 20px;
+
+    @media (min-width: 900px){
+        width: 700px;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+
+    @media (min-width: 900px){
+        max-width: 70%;
+    }
+
+    .re{
+        width: 80%;
+        height: 100px;
+        margin: 5px;
+        background-color:$beige;
+        border-radius: 10px;
+        padding: 15px;
+
+        @media (min-width: 900px){
+            max-width: 50%;
+        }
+    }
+}
+
