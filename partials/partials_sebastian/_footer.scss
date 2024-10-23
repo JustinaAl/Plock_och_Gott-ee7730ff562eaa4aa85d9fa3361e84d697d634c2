@@ -1,6 +1,6 @@
 footer {
-    background-color: #055C64;
-    color: #FFF3E3;
+    background-color: $green1;
+    color: $notwhite;
     padding: 10px 0;
   }
   
@@ -30,7 +30,7 @@ footer {
   .footer-column a {
     font-size: 20px;
 
-    color: #FFF3E3;
+    color: $notwhite;
     text-decoration: none;
   }
   
