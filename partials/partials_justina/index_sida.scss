@@ -1,7 +1,7 @@
-@import "./partials/partials_justina/variables";
-@import "./partials/partials_justina/mixins";
-@import "./partials/partials_justina/_header.scss";
-@import "./partials/partials_sebastian/footer";
+@import "./variables";
+@import "./mixins";
+@import "./header.scss";
+@import "./sebastian_footer";
 
 h2{
     font-size:$font-size-medium;
