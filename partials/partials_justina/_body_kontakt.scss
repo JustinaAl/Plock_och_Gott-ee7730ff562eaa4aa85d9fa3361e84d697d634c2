@@ -249,6 +249,13 @@ input.text.text.small{
 }
 
 section.info{
+
+    div.links{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     @media (min-width: 777px) {
         min-height: 445px;
     }

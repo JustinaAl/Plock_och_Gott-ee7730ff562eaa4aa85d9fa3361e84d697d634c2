@@ -153,6 +153,9 @@ main div.wrap > a:visited{
     color: unset;
 }
 
+section.recentioner h2.name{
+    color: white;
+}
 
 @media (min-width:800px){
     main{
@@ -205,4 +208,5 @@ main div.wrap > a:visited{
     margin: 10px;
     min-width:200px;
 }
+
 }

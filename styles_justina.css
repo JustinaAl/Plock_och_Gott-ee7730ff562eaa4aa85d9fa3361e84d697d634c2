@@ -409,6 +409,11 @@ input.text.text.small {
   cursor: pointer;
 }
 
+section.info div.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
 @media (min-width: 777px) {
   section.info {
     min-height: 445px;
