@@ -350,47 +350,6 @@ div.box {
   background-color: #034349;
 }
 
-section.recentioner {
-  display: flex;
-  flex-direction: column;
-  background-color: #055C64;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 40px;
-}
-section.recentioner h2 {
-  margin-bottom: 30px;
-}
-section.recentioner .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-  gap: 20px;
-}
-section.recentioner .container .re {
-  max-width: 130px;
-  height: 200px;
-  background-color: beige;
-  border-radius: 10px;
-  padding: 15px;
-}
-section.recentioner .container .re p {
-  margin: 10px;
-}
-section.recentioner .container .re .stars {
-  font-size: 40px;
-}
-section.recentioner .container .re .date {
-  font-size: 14px;
-  font-style: italic;
-}
-section.recentioner .container .re .com {
-  font-size: 16px;
-}
-
 main div.wrap > a {
   color: unset;
 }
@@ -426,18 +385,71 @@ main div.wrap > a:visited {
   .tjanster {
     padding: 20px;
   }
-  .recentioner {
-    max-width: 800px;
-    margin: auto;
-  }
-  .recentioner .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-  .re {
-    margin: 10px;
-    min-width: 200px;
-  }
+}
+.recensioner_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recension_container {
+  background-color: #055C64;
+  padding: 20px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.recension_rubrik {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recension_rubrik h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.recension_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.recension_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.recensioner {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.recensioner:hover {
+  background-color: #f0f0f0;
+}
+
+.stjarna {
+  font-size: 20px;
+  color: #ffcc00;
+}
+
+.datum_namn {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.kommentar_text {
+  font-size: 16px;
+  color: #333;
 }/*# sourceMappingURL=index_sida.css.map */
