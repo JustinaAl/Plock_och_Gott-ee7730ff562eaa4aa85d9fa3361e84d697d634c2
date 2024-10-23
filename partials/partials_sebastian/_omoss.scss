@@ -14,28 +14,34 @@ body {
 
 body h1 {
   font-size: 28px;
+  font-family: $rubriker;
 }
 
 body .h2 {
   font-size: 26px;
   color: black;
+  font-family: $rubriker;
 
 }
 
 body h3 {
   font-size: 22px;
+  font-family: $rubriker;
 }
 
 body h4 {
   font-size: 18px;
+  font-family: $rubriker;
 }
 
 body p {
   font-size: 16px;
+  font-family: $texter;
 }
 
 body a {
   font-size: 16px;
+  font-family: $texter;
 
 }
 
@@ -65,15 +71,18 @@ body a {
 .omoss-info-about h1 {
   font-size: 28px;
   font-weight: 600;
+  font-family: $rubriker;
 }
 
 .omoss-info-about p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: $texter;
 }
 
 .omoss-info-about i {
   font-style: italic;
+  font-family: $texter;
 }
 
 @media screen and (min-width: 768px) {
@@ -130,6 +139,7 @@ body a {
 
 .omoss-container .omoss-green p {
   margin-bottom: 40px;
+  font-family: $texter;
 }
 
 .omoss-container .omoss-green h4 {

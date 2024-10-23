@@ -285,27 +285,33 @@ body {
 
 body h1 {
   font-size: 28px;
+  font-family: "Inria Serif";
 }
 
 body .h2 {
   font-size: 26px;
   color: black;
+  font-family: "Inria Serif";
 }
 
 body h3 {
   font-size: 22px;
+  font-family: "Inria Serif";
 }
 
 body h4 {
   font-size: 18px;
+  font-family: "Inria Serif";
 }
 
 body p {
   font-size: 16px;
+  font-family: "Arima";
 }
 
 body a {
   font-size: 16px;
+  font-family: "Arima";
 }
 
 .omoss-staff {
@@ -334,15 +340,18 @@ body a {
 .omoss-info-about h1 {
   font-size: 28px;
   font-weight: 600;
+  font-family: "Inria Serif";
 }
 
 .omoss-info-about p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: "Arima";
 }
 
 .omoss-info-about i {
   font-style: italic;
+  font-family: "Arima";
 }
 
 @media screen and (min-width: 768px) {
@@ -399,6 +408,7 @@ body a {
 
 .omoss-container .omoss-green p {
   margin-bottom: 40px;
+  font-family: "Arima";
 }
 
 .omoss-container .omoss-green h4 {
@@ -436,6 +446,7 @@ main {
 }
 main h1 {
   margin-bottom: 20px;
+  font-family: "Inria Serif";
 }
 
 .products {
@@ -501,10 +512,10 @@ main h1 {
   font-size: 20px;
   margin-bottom: 0;
   color: black;
-  font-family: sans-serif;
+  font-family: "Inria Serif";
 }
 .products .title-container h3 {
-  font-family: sans-serif;
+  font-family: "Inria Serif";
   font-size: 14px;
   margin: 0px;
   margin-right: 11px;
@@ -513,7 +524,7 @@ main h1 {
   margin-bottom: 1rem;
 }
 .products .buffe-menu p {
-  font-family: sans-serif;
+  font-family: "Arima";
   margin: 0;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -530,7 +541,7 @@ main h1 {
   margin-top: 3rem;
 }
 .products .label-select select {
-  font-family: sans-serif;
+  font-family: "Arima";
   background-color: #055C64;
   color: white;
   font-size: 18px;

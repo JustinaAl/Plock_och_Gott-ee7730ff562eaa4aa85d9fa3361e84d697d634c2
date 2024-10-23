@@ -87,10 +87,7 @@ select{
     cursor: pointer;
 }
 
-.column{
-    display: flex;
-    flex-direction: column;
-}
+
 
 #Plock_och_Gott_Restaurant{
     width: 360px;
@@ -184,6 +181,7 @@ a{
     height: 40px;
     margin-right: 5px;
     padding: 5px;
+
 }
 
 .form{
@@ -205,11 +203,8 @@ a{
 
 }
 .text.small:last-of-type{
-    width: 55px;
+    width: 130px;
 
-    @media (min-width: 900px) {
-        width: 65px;
-    }
 }
 
 .wrap-time{
