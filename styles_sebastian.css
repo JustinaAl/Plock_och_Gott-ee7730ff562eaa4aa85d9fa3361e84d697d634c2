@@ -497,9 +497,10 @@ main h1 {
   text-align: start;
   padding-left: 1rem;
 }
-.products .title-container h2 {
+.products .title-container .h2-meny {
   font-size: 20px;
   margin-bottom: 0;
+  color: black;
   font-family: sans-serif;
 }
 .products .title-container h3 {
@@ -553,7 +554,7 @@ main h1 {
   cursor: pointer;
 }
 .products .boka:hover, .products .label-select select:hover {
-  background-color: #15373a;
+  background-color: #213638;
 }
 .products .label-select select:focus {
   outline: none;
