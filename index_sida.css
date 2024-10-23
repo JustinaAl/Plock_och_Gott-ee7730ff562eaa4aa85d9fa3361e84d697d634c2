@@ -305,6 +305,7 @@ section.personal span {
 section.personal div.bilder {
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 20px;
 }
 section.personal div.bilder img {
   max-width: 160px;
@@ -350,6 +351,8 @@ div.box {
 }
 
 section.recentioner {
+  display: flex;
+  flex-direction: column;
   background-color: #055C64;
   padding: 10px;
   border-radius: 10px;
@@ -360,7 +363,7 @@ section.recentioner h2 {
 }
 section.recentioner .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   min-height: -moz-fit-content;
@@ -368,7 +371,7 @@ section.recentioner .container {
   gap: 20px;
 }
 section.recentioner .container .re {
-  width: 130px;
+  max-width: 130px;
   height: 200px;
   background-color: beige;
   border-radius: 10px;
@@ -388,10 +391,53 @@ section.recentioner .container .re .com {
   font-size: 16px;
 }
 
-a.to_rec {
+main div.wrap > a {
   color: unset;
 }
 
-a:visited {
+main div.wrap > a:visited {
   color: unset;
+}
+
+@media (min-width: 800px) {
+  main {
+    background-color: white;
+  }
+  .personal {
+    background-color: #FFF3E3;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+  }
+  .personal p {
+    padding: 20px;
+  }
+  section.two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  section.two .bilder_two {
+    min-width: 50%;
+    background-color: #FFF3E3;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .tjanster {
+    padding: 20px;
+  }
+  .recentioner {
+    max-width: 800px;
+    margin: auto;
+  }
+  .recentioner .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .re {
+    margin: 10px;
+    min-width: 200px;
+  }
 }/*# sourceMappingURL=index_sida.css.map */
