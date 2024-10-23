@@ -1,32 +1,12 @@
-body {
-    height: 100vh;
-}
 
-.wrapper {
-    width: 100%;
-    padding-bottom: 40px;
-    background-color: rgb(214, 236, 214);
-}
-
-.rubrik h3 {
-    margin-top: 0;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.innerwrapper {
-    margin: auto;
-    width: 800px;
-    border-radius: 20px;
-    background-color: #055C64;
-    padding-top: 40px;
-}
 
 .review_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tre kolumner */
+    grid-gap: 20px; /* Mellanrum mellan kolumner och rader */
+    padding: 50px;
+    justify-items: center; /* Centrerar objekten i varje kolumn */
+    margin-bottom: 50px;
 }
 
 .review {
@@ -35,16 +15,33 @@ body {
     border: 3px solid black;
     text-align: center;
     padding: 10px;
-    margin-bottom: 30px;
-    width: 190px;
+    width: 90%; /* Justera bredden så att den passar inom grid-cellen */
     height: 150px;
     list-style: none;
+    transition: transform 0.3s ease;
+}
+
+.review:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.review_text {
+    font-size: 12px;
+    
+}
+
+.review:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .rating {
     color: #FFD700; 
-    font-size: 18px; 
-    margin-bottom: -20px; 
+    font-size: 16px; 
+    margin-bottom: -px; 
     text-align: center;
 }
 
@@ -88,6 +85,10 @@ body {
     right: 20px; 
 }
 
+.arrow_icon:hover {
+    transform: scale(1.15);
+}
+
 .omdome {
     margin-top: 10px;
 }
@@ -116,6 +117,12 @@ body {
     border-radius: 20px;
     background-color: #055C64;
     text-align: center;
+    padding: 7px;
+}
+
+.recension_wrapper:hover {
+    background-color: #003d42;
+    cursor: pointer;
 }
 
 .recension_text {
