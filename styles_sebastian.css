@@ -287,8 +287,9 @@ body h1 {
   font-size: 28px;
 }
 
-body h2 {
+body .h2 {
   font-size: 26px;
+  color: black;
 }
 
 body h3 {
@@ -305,7 +306,6 @@ body p {
 
 body a {
   font-size: 16px;
-  margin: 5px;
 }
 
 .omoss-staff {
@@ -472,7 +472,6 @@ main h1 {
 }
 .products .green .image-container {
   width: 93%;
-  background-color: red;
   max-width: 405px;
   height: 173px;
   margin-top: 0.3rem;
@@ -498,12 +497,13 @@ main h1 {
   text-align: start;
   padding-left: 1rem;
 }
-.products .title-container h3 {
+.products .title-container .h2-meny {
   font-size: 20px;
   margin-bottom: 0;
+  color: black;
   font-family: sans-serif;
 }
-.products .title-container h4 {
+.products .title-container h3 {
   font-family: sans-serif;
   font-size: 14px;
   margin: 0px;
@@ -519,7 +519,7 @@ main h1 {
   padding-right: 1rem;
 }
 .products .boka:hover {
-  background-color: #44104e;
+  background-color: #15373a;
 }
 .products .label-select {
   display: flex;
@@ -531,7 +531,7 @@ main h1 {
 }
 .products .label-select select {
   font-family: sans-serif;
-  background-color: #1a5c63;
+  background-color: #055C64;
   color: white;
   font-size: 18px;
   padding: 10px 20px;
@@ -544,7 +544,7 @@ main h1 {
           appearance: none;
 }
 .products .boka {
-  background-color: #1a5c63;
+  background-color: #055C64;
   color: white;
   font-size: 18px;
   padding: 10px 20px;
