@@ -17,6 +17,7 @@ main {
 
     h1 {
         margin-bottom: 20px;
+        font-family: $rubriker;
     }
 }
 
@@ -92,12 +93,12 @@ main {
         font-size: 20px;
         margin-bottom: 0;
         color: black;
-        font-family: sans-serif;
+        font-family: $rubriker;
 
     }
     h3 {
 
-        font-family: sans-serif;
+        font-family: $rubriker;
         font-size: 14px;
         margin: 0px;
         margin-right: 11px;
@@ -109,7 +110,7 @@ main {
 
 .buffe-menu p {
     
-    font-family: sans-serif;
+    font-family: $texter;
     margin: 0;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -134,7 +135,7 @@ main {
 
 .label-select select {
     
-    font-family: sans-serif;
+    font-family: $texter;
     background-color: $green1;
     color: white;
     font-size: 18px;
