@@ -173,13 +173,15 @@ section.recentioner h2.name{
     display: flex;
     justify-content: space-between; 
     gap: 20px; 
+    flex-wrap: wrap; 
 }
 
 .recension_link {
     text-decoration: none;
     color: inherit; 
     display: block;
-    width: 100%;
+    width: calc(33.33% - 20px); 
+    max-width: 300px; 
 }
 
 .recensioner {
@@ -187,7 +189,6 @@ section.recentioner h2.name{
     border: 2px solid #000;
     border-radius: 10px;
     padding: 15px;
-    width: 100%; 
     box-sizing: border-box;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -206,4 +207,16 @@ section.recentioner h2.name{
     font-size: 14px;
     color: #666;
     margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .recension_box {
+        justify-content: center; 
+    }
+
+    .recension_link {
+        width: calc(100% - 20px); 
+        margin-bottom: 20px; 
+    }
 }

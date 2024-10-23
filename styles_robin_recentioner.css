@@ -1,10 +1,9 @@
-@charset "UTF-8";
 .review_wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tre kolumner */
-  grid-gap: 20px; /* Mellanrum mellan kolumner och rader */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   padding: 50px;
-  justify-items: center; /* Centrerar objekten i varje kolumn */
+  justify-items: center;
   margin-bottom: 50px;
 }
 
@@ -14,10 +13,10 @@
   border: 3px solid black;
   text-align: center;
   padding: 10px;
-  width: 90%; /* Justera bredden så att den passar inom grid-cellen */
+  width: 90%;
   height: 150px;
   list-style: none;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .review:hover {
@@ -25,27 +24,26 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.review_text {
+.review_text, .rating, .date_name {
+  font-family: "Arima";
   font-size: 12px;
-}
-
-.review:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .rating {
   color: #FFD700;
   font-size: 16px;
-  margin-bottom: -px;
-  text-align: center;
+  margin-bottom: -20px;
 }
 
 .date_name {
   color: rgba(128, 128, 128, 0.7);
-  font-size: 12px;
-  margin-bottom: 20px;
-  padding-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.review_text {
+  margin-top: -5px;
+  padding: 0;
 }
 
 .google_wrapper {
@@ -68,7 +66,7 @@
   display: flex;
   width: 50px;
   justify-content: space-between;
-  align-items: left;
+  align-items: flex-start;
 }
 
 .google_logo_text {
@@ -92,13 +90,13 @@
 }
 
 #omdome_text {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 90px;
   padding-left: 10px;
 }
 
 #omdome_rating {
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
   margin-left: 10px;
 }
@@ -108,14 +106,14 @@
 }
 
 .recension_wrapper {
-  margin: auto;
+  margin: 20px auto;
   width: 400px;
   height: 50px;
-  margin-top: 20px;
   border-radius: 20px;
   background-color: #055C64;
   text-align: center;
   padding: 7px;
+  transition: background-color 0.3s ease;
 }
 
 .recension_wrapper:hover {
@@ -124,6 +122,5 @@
 }
 
 .recension_text {
-  padding-top: 10px;
   color: #fff;
 }/*# sourceMappingURL=styles_robin_recentioner.css.map */
